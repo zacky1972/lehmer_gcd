@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-01-27
+
+### Changed
+- **Performance Optimization**: Refactored quotient comparison logic in the Lehmer GCD algorithm
+- **Algorithm Enhancement**: Replaced redundant division operations with efficient cross-multiplication comparison
+- **Code Quality**: Improved readability and maintainability of the inner loop logic
+- **Test Coverage**: Extended randomized testing range from 1 billion to 1 trillion for better stress testing
+
+### Technical Improvements
+- Added `same_quotient_without_div/4` helper function for efficient quotient comparison
+- Eliminated redundant division operations in the critical path
+- Enhanced algorithm performance for very large integers
+- Improved mathematical precision using cross-multiplication property
+
+---
+
 ## [1.0.0] - 2025-07-21
 
 ### Added
@@ -56,6 +72,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Version History
 
+- **1.0.1**: Performance optimization and enhanced test coverage
 - **1.0.0**: First stable release with complete Lehmer GCD implementation
 
 ## Contributing
@@ -77,3 +94,26 @@ When adding new features or making changes, please:
 ---
 
 *This changelog follows the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for version numbers.*
+
+Release version 1.0.1 with performance optimizations and enhanced documentation
+
+This commit prepares the release of version 1.0.1 with the following changes:
+
+Version Update (mix.exs):
+- Bumped version from 1.0.0 to 1.0.1 to reflect the performance improvements
+
+Documentation Updates (CHANGELOG.md):
+- Added comprehensive changelog entry for version 1.0.1
+- Documented performance optimizations in the Lehmer GCD algorithm
+- Listed technical improvements including the new same_quotient_without_div/4 function
+- Updated version history section to include the new release
+- Followed Keep a Changelog format with proper categorization
+
+Key Improvements Documented:
+- Performance optimization through refactored quotient comparison logic
+- Algorithm enhancement by replacing redundant division operations
+- Code quality improvements for better readability and maintainability
+- Extended test coverage from 1 billion to 1 trillion for stress testing
+- Technical improvements including efficient cross-multiplication comparison
+
+This release focuses on performance optimizations and enhanced test coverage while maintaining backward compatibility and mathematical correctness.
