@@ -9,7 +9,8 @@ defmodule LehmerGcd.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       name: "Lehmer gcd",
-      description: "TODO: write a proper description",
+      description:
+        "An efficient implementation of the Lehmer GCD algorithm for computing the greatest common divisor of large integers in Elixir.",
       docs: docs(),
       package: package(),
       aliases: aliases(),
@@ -87,7 +88,7 @@ defmodule LehmerGcd.MixProject do
     [
       name: :lehmer_gcd,
       licenses: ["Apache-2.0"],
-      links: %{"GitHub" => "https://github.com/TODO/lehmer_gcd"}
+      links: %{"GitHub" => "https://github.com/zacky1972/lehmer_gcd"}
     ]
   end
 
