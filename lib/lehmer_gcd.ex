@@ -88,14 +88,16 @@ defmodule LehmerGcd do
 
   @doc false
   defp inner(x, y, u, v, a1, b1) do
-    q = div(a1 + x, b1 + v)
-    q2 = div(a1 + u, b1 + y)
-
-    if q == q2 do
+    if same_quotient_without_div(a1 + x, b1 + v, a1 + u, b1 + y) do
+      q = div(a1 + x, b1 + v)
       inner(u, v, x - q * u, y - q * v, b1, a1 - q * b1)
     else
       {x, y, u, v, a1, b1}
     end
+  end
+
+  defp same_quotient_without_div(a, b, c, d) do
+    a * d == b * c
   end
 
   @doc false
