@@ -63,6 +63,8 @@ defmodule LehmerGcd.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:binary_gcd, "~> 1.1"},
+      {:bit_length, "~> 1.0"},
       {:nstandard, "~> 0.1"},
       {:ex_doc, "~> 0.31", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},

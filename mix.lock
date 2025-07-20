@@ -1,4 +1,6 @@
 %{
+  "binary_gcd": {:hex, :binary_gcd, "1.1.0", "d106cf53bc184a1be49901a0f26dabc40b99e5f1809de45755a6d4b17ed9c4bf", [:mix], [{:nstandard, "~> 0.1", [hex: :nstandard, repo: "hexpm", optional: false]}], "hexpm", "6e5a9bd37e98340f4d594bec206de76b5596f92516b89f23bd035aa65e540560"},
+  "bit_length": {:hex, :bit_length, "1.0.0", "a2d6e38850f99e30e2b7570c6b79ab5d382de148e21ed75f9529450bcc01edec", [:mix], [{:nstandard, "~> 0.1", [hex: :nstandard, repo: "hexpm", optional: false]}], "hexpm", "e4237d3710bbed9fc9063d1f86d7848192c6bd89631b89778a811d74c0a698bf"},
   "bun": {:hex, :bun, "1.5.0", "66605214079478e9767d7ff8f5361541a7f106f47c1027cfc4c2e21c27ef30ca", [:mix], [], "hexpm", "de4f0e761b273eb37f2ebc3ef4b5b8e12cc9bd9cd403f212190df580ac7cda03"},
   "bunt": {:hex, :bunt, "1.0.0", "081c2c665f086849e6d57900292b3a161727ab40431219529f13c4ddcf3e7a44", [:mix], [], "hexpm", "dc5f86aa08a5f6fa6b8096f0735c4e76d54ae5c9fa2c143e5a1fc7c1cd9bb6b5"},
   "credo": {:hex, :credo, "1.7.12", "9e3c20463de4b5f3f23721527fcaf16722ec815e70ff6c60b86412c695d426c1", [:mix], [{:bunt, "~> 0.2.1 or ~> 1.0", [hex: :bunt, repo: "hexpm", optional: false]}, {:file_system, "~> 0.2 or ~> 1.0", [hex: :file_system, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm", "8493d45c656c5427d9c729235b99d498bd133421f3e0a683e5c1b561471291e5"},
