@@ -3,7 +3,7 @@
 [![Hex.pm](https://img.shields.io/hexpm/v/lehmer_gcd)](https://hex.pm/packages/lehmer_gcd)
 [![Hex.pm](https://img.shields.io/hexpm/dt/lehmer_gcd)](https://hex.pm/packages/lehmer_gcd)
 [![Hex.pm](https://img.shields.io/hexpm/l/lehmer_gcd)](https://hex.pm/packages/lehmer_gcd)
-[![GitHub](https://img.shields.io/github/license/TODO/lehmer_gcd)](https://github.com/TODO/lehmer_gcd/blob/main/LICENSE.md)
+[![GitHub](https://img.shields.io/github/license/zacky1972/lehmer_gcd)](https://github.com/zacky1972/lehmer_gcd/blob/main/LICENSE.md)
 
 An efficient implementation of the Lehmer GCD algorithm for computing the greatest common divisor of large integers in Elixir.
 
