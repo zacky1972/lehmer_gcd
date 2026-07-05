@@ -4,7 +4,7 @@ defmodule LehmerGcd.MixProject do
   def project do
     [
       app: :lehmer_gcd,
-      version: "1.0.2",
+      version: "1.0.3",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -28,7 +28,7 @@ defmodule LehmerGcd.MixProject do
   def docs do
     [
       main: "readme",
-      extras: ["README.md", "LICENSE.md", "CHANGELOG.md"],
+      extras: ["README.md", "LICENSE.md", "CHANGELOG.md", "AGENT.md"],
       before_closing_head_tag: &before_closing_head_tag/1,
       before_closing_body_tag: &before_closing_body_tag/1
     ]
